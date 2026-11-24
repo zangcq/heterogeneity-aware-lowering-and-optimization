@@ -1,0 +1,43 @@
+\doxysection{ODLA/ops/odla\+\_\+ops\+\_\+custom.h File Reference}
+\hypertarget{odla__ops__custom_8h}{}\label{odla__ops__custom_8h}\index{ODLA/ops/odla\_ops\_custom.h@{ODLA/ops/odla\_ops\_custom.h}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{odla__common_8h_a1f9123e77ab174e483a7f307eb9c264e}{ODLA\+\_\+\+API\+\_\+\+EXPORT}} \mbox{\hyperlink{structodla__values}{odla\+\_\+values}} ODLA\+\_\+\+API\+\_\+\+CALL \mbox{\hyperlink{odla__ops__custom_8h_adb5183292f48555f4e00aaa0eab74578}{odla\+\_\+\+Custom\+Op}} (\mbox{\hyperlink{structodla__values}{odla\+\_\+values}} inputs, const \mbox{\hyperlink{odla__common_8h_a70ab5c97f8e2150ab1c252e6fa33d38b}{odla\+\_\+char}} \texorpdfstring{$\ast$}{*}op\+\_\+name, const \mbox{\hyperlink{odla__common_8h_a70ab5c97f8e2150ab1c252e6fa33d38b}{odla\+\_\+char}} \texorpdfstring{$\ast$}{*}function\+\_\+name, const \mbox{\hyperlink{structodla__value__ids}{odla\+\_\+value\+\_\+ids}} ids,...)
+\begin{DoxyCompactList}\small\item\em Custom\+Op. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file defines the ODLA custom operator. 
+
+Definition in file \mbox{\hyperlink{odla__ops__custom_8h_source}{odla\+\_\+ops\+\_\+custom.\+h}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{odla__ops__custom_8h_adb5183292f48555f4e00aaa0eab74578}\index{odla\_ops\_custom.h@{odla\_ops\_custom.h}!odla\_CustomOp@{odla\_CustomOp}}
+\index{odla\_CustomOp@{odla\_CustomOp}!odla\_ops\_custom.h@{odla\_ops\_custom.h}}
+\doxysubsubsection{\texorpdfstring{odla\_CustomOp()}{odla\_CustomOp()}}
+{\footnotesize\ttfamily \label{odla__ops__custom_8h_adb5183292f48555f4e00aaa0eab74578} 
+\mbox{\hyperlink{odla__common_8h_a1f9123e77ab174e483a7f307eb9c264e}{ODLA\+\_\+\+API\+\_\+\+EXPORT}} \mbox{\hyperlink{structodla__values}{odla\+\_\+values}} ODLA\+\_\+\+API\+\_\+\+CALL odla\+\_\+\+Custom\+Op (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structodla__values}{odla\+\_\+values}}}]{inputs}{, }\item[{const \mbox{\hyperlink{odla__common_8h_a70ab5c97f8e2150ab1c252e6fa33d38b}{odla\+\_\+char}} \texorpdfstring{$\ast$}{*}}]{op\+\_\+name}{, }\item[{const \mbox{\hyperlink{odla__common_8h_a70ab5c97f8e2150ab1c252e6fa33d38b}{odla\+\_\+char}} \texorpdfstring{$\ast$}{*}}]{function\+\_\+name}{, }\item[{const \mbox{\hyperlink{structodla__value__ids}{odla\+\_\+value\+\_\+ids}}}]{ids}{, }\item[{}]{...}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Custom\+Op. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inputs} & the inputs value \\
+\hline
+{\em op\+\_\+name} & a pointer to the name string of the custom operator \\
+\hline
+{\em function\+\_\+name} & a pointer to the name string of the impl function \\
+\hline
+{\em value\+\_\+ids} & unique value ids \\
+\hline
+{\em Variadic} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{structodla__values}{odla\+\_\+values} 
+\end{DoxyReturn}
